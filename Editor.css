@@ -1,0 +1,24 @@
+/* Editor.css */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .input,
+  .output {
+    width: 45%;
+  }
+  
+  .input textarea {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .output .output-text {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
